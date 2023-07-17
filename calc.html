@@ -6,11 +6,43 @@
     <title>Calculator</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    
+
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 <body>
 
-<div class="calculator">
+</div>
+<!-- random facts generator -->
+
+<div class="wrapper">
+<header>Poké fact</header>
+<div class="content">
+<div class="quote-area">
+<i class="fas fa-quote-left"></i>
+<p class="quote" id="output">Rhydon is the 1st Pokémon ever created</p>
+<i class="fas fa-quote-right"></i>
+
+</div>
+
+</div>
+<div class="next-btn">
+    <button id="btn">Next</button>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- 
+end of fact generator -->
+
+<div class="calculator" id="calc-id">
 <textarea name="" id="" cols="30" rows="10" disabled></textarea>
 
 <div class="row">
@@ -56,8 +88,9 @@
 </div>
 
 
-</div>
-    
+
+
+
 </body>
 <script src='backend.js'></script>
 </html>
