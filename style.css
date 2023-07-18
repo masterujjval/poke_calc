@@ -176,7 +176,7 @@ background: -webkit-linear-gradient(to right, #FF6B6B, #556270);  /* Chrome 10-2
     background-image: url(pikachu.gif);
     background-repeat: no-repeat;
     background-position: center;
-    
+    background-size: 200% 100%;
     
     
       }
